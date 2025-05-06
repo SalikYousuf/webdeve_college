@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables and Captions</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 49%;
+        margin: 4px;
+        border: 3px solid;
+      }
+
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+      }
+      ul {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: blanchedalmond;
+        margin-bottom: 20px;
+      }
+      li {
+        float: left;
+        padding: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="new.html">home</a></li>
+      <li><a href="apnacollege.html">about us</a></li>
+      <li><a href="div.html">contact</a></li>
+    </ul>
+    <table style="float: left">
+      <caption>
+        Table 1
+      </caption>
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Roll No</th>
+      </tr>
+      <tr>
+        <td>Salik</td>
+        <td>Yousuf</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Basit</td>
+        <td>Majeed</td>
+        <td>02</td>
+      </tr>
+    </table>
+
+    <table>
+      <caption>
+        Table 2
+      </caption>
+      <tr>
+        <th>Name</th>
+        <td>Salik</td>
+        <td>Basit</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Ph. No.</th>
+        <td>123456</td>
+        <td>123456</td>
+      </tr>
+      <tr>
+        <td>365656</td>
+        <td>365656</td>
+      </tr>
+    </table>
+  </body>
+</html>
